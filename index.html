@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Joke Genrator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>NUMBER GUESSING GAME</h1>
+    <div class="user_chances">
+        <h2>How Much Guess You Need =  <input type="text" placeholder="ENTER CHANCES NEEDED" id="Maxattempt"></h2>
+        <button id="maxchancebtn">Submit</button>
+        <h2 id="userattempt">Your Chances = <span id="userattemptasked">0</span></h2>
+    </div>
+    <div class="comp"> 
+        <h3 id="computergenerated"></h3>
+        <h2>Computer Generated</h2>
+        <button id="generatebtn">Generate</button>
+    </div>
+    <div class="line"></div>
+    <div class="user"> 
+        <h2>Start guessing</h2>
+        <Input type="text" placeholder="Enter Your Guessing" id="userguessingnumber">
+        <button id="userguessingbtn">Sumbit</button>
+        <h3>Your Guessing Number = <h3 id="userguessed">0</h3></h3>
+        <h3 id="difference"></h3>
+    </div>
+    <h1 id="winner"></h1>
+    <button id="resetbtn">Reset</button>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
